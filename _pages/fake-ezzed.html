@@ -1,0 +1,685 @@
+---
+permalink: /fake/
+title: "Fake Ezzed Official Ranking"
+author_profile: true
+redirect_from:
+---
+<section class="page__content" itemprop="text">
+    <p>La lista, sempre aggiornata, dei finti ezzati. Siamo aperti a segnalazioni</p>
+    <h1 id="classifica">Classifica</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>Punteggio</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Manuel</td>
+                <td>105</td>
+            </tr>
+            <tr>
+                <td>Giammili</td>
+                <td>70</td>
+            </tr>
+            <tr>
+                <td>Marco</td>
+                <td>65</td>
+            </tr>
+            <tr>
+                <td>Dario</td>
+                <td>40</td>
+            </tr>
+            <tr>
+                <td>Frisella</td>
+                <td>35</td>
+            </tr>
+            <tr>
+                <td>Luca</td>
+                <td>25</td>
+            </tr>
+            <tr>
+                <td>Chicco</td>
+                <td>20</td>
+            </tr>
+            <tr>
+                <td>Simone</td>
+                <td>10</td>
+            </tr>
+            <tr>
+                <td>Alessandro</td>
+                <td>10</td>
+            </tr>
+            <tr>
+                <td>Flavio</td>
+                <td>0</td>
+            </tr>
+            <tr>
+                <td>Salvo</td>
+                <td>0</td>
+            </tr>
+            <tr>
+                <td>Andrea</td>
+                <td>-10</td>
+            </tr>
+            <tr>
+                <td>Ferdinando</td>
+                <td>-15</td>
+            </tr>
+            <tr>
+                <td>Pio</td>
+                <td>-15</td>
+            </tr>
+        </tbody>
+    </table>
+    <h1 id="bonus-e-malus">Bonus e Malus</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Category</th>
+                <th>Option</th>
+                <th>Points</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for category in site.data.categories %}
+            {% for option in category.options %}
+            <tr>
+                <td>{{ category.category }}</td>
+                <td>{{ option.name }}</td>
+                <td>{{ option.points }}</td>
+            </tr>
+            {% endfor %}
+            {% endfor %}
+        </tbody>
+    </table>
+
+    <h1 id="dettagli-punteggi">Dettagli Punteggi</h1>
+    <h2 id="alessandro">Alessandro</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Bonus/Malus</th>
+                <th>Punteggio</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Iscrizione Uni</td>
+                <td>+10</td>
+            </tr>
+            <tr>
+                <td>Disiscrizione Uni</td>
+                <td>-15</td>
+            </tr>
+            <tr>
+                <td>In casa genitori</td>
+                <td>-10</td>
+            </tr>
+            <tr>
+                <td>Viaggiare</td>
+                <td>+10</td>
+            </tr>
+            <tr>
+                <td>Videogiocare</td>
+                <td>-5</td>
+            </tr>
+            <tr>
+                <td>Campi da gioco</td>
+                <td>+40 (/2)</td>
+            </tr>
+            <tr>
+                <td><strong>Totale</strong></td>
+                <td><strong>10</strong></td>
+            </tr>
+        </tbody>
+    </table>
+    <h2 id="andrea">Andrea</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Bonus/Malus</th>
+                <th>Punteggio</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Stagista/Schiavo</td>
+                <td>-5</td>
+            </tr>
+            <tr>
+                <td>In casa genitori</td>
+                <td>-10</td>
+            </tr>
+            <tr>
+                <td>Suonare uno strumento</td>
+                <td>+5</td>
+            </tr>
+            <tr>
+                <td>Concerti</td>
+                <td>+5</td>
+            </tr>
+            <tr>
+                <td>Ipocondria</td>
+                <td>-5</td>
+            </tr>
+            <tr>
+                <td><strong>Totale</strong></td>
+                <td><strong>-10</strong></td>
+            </tr>
+        </tbody>
+    </table>
+    <h2 id="chicco">Chicco</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Bonus/Malus</th>
+                <th>Punteggio</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Iscrizione Uni</td>
+                <td>+10</td>
+            </tr>
+            <tr>
+                <td>In casa genitori</td>
+                <td>-10</td>
+            </tr>
+            <tr>
+                <td>Campi da gioco</td>
+                <td>+40 (/2)</td>
+            </tr>
+            <tr>
+                <td>Videogiocare</td>
+                <td>-5</td>
+            </tr>
+            <tr>
+                <td>Ludopatia</td>
+                <td>-10</td>
+            </tr>
+            <tr>
+                <td>Gymbro</td>
+                <td>+10</td>
+            </tr>
+            <tr>
+                <td>Suonare uno strumento</td>
+                <td>+5</td>
+            </tr>
+            <tr>
+                <td><strong>Totale</strong></td>
+                <td><strong>+20</strong></td>
+            </tr>
+        </tbody>
+    </table>
+    <h2 id="Dario">Dario</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Bonus/Malus</th>
+                <th>Punteggio</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Iscrizione Uni</td>
+                <td>+10</td>
+            </tr>
+            <tr>
+                <td>Triennale</td>
+                <td>+30</td>
+            </tr>
+            <tr>
+                <td>Disoccupato</td>
+                <td>-30</td>
+            </tr>
+            <tr>
+                <td>Al Nord</td>
+                <td>+20</td>
+            </tr>
+            <tr>
+                <td>Fidanzato</td>
+                <td>+10</td>
+            </tr>
+            <tr>
+                <td><strong>Totale</strong></td>
+                <td><strong>+40</strong></td>
+            </tr>
+        </tbody>
+    </table>
+    <h2 id="ferdinando">Ferdinando</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Bonus/Malus</th>
+                <th>Punteggio</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Iscrizione Uni</td>
+                <td>+10</td>
+            </tr>
+            <tr>
+                <td>Disoccupato</td>
+                <td>-30</td>
+            </tr>
+            <tr>
+                <td>In casa genitori</td>
+                <td>-10</td>
+            </tr>
+            <tr>
+                <td>Macchina</td>
+                <td>+15</td>
+            </tr>
+            <tr>
+                <td><strong>Totale</strong></td>
+                <td><strong>-15</strong></td>
+            </tr>
+        </tbody>
+    </table>
+    <h2 id="flavio">Flavio</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Bonus/Malus</th>
+                <th>Punteggio</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Stagista/Schiavo</td>
+                <td>-5</td>
+            </tr>
+            <tr>
+                <td>In casa genitori</td>
+                <td>-10</td>
+            </tr>
+            <tr>
+                <td>Fidanzato</td>
+                <td>+10</td>
+            </tr>
+            <tr>
+                <td>Macchina</td>
+                <td>+15</td>
+            </tr>
+            <tr>
+                <td>Ludopatia</td>
+                <td>-10</td>
+            </tr>
+            <tr>
+                <td><strong>Totale</strong></td>
+                <td><strong>0</strong></td>
+            </tr>
+        </tbody>
+    </table>
+    <h2 id="frisella">Frisella</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Bonus/Malus</th>
+                <th>Punteggio</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Iscrizione Uni</td>
+                <td>+10</td>
+            </tr>
+            <tr>
+                <td>Disiscrizione Uni</td>
+                <td>-15</td>
+            </tr>
+            <tr>
+                <td>Stagista/Schiavo</td>
+                <td>-5</td>
+            </tr>
+            <tr>
+                <td>In casa genitori</td>
+                <td>-10</td>
+            </tr>
+            <tr>
+                <td>Casa di proprietà</td>
+                <td>+70 (/2)</td>
+            </tr>
+            <tr>
+                <td>Fidanzato</td>
+                <td>+10</td>
+            </tr>
+            <tr>
+                <td>Macchina</td>
+                <td>+15</td>
+            </tr>
+            <tr>
+                <td>Videogiocare</td>
+                <td>-5</td>
+            </tr>
+            <tr>
+                <td><strong>Totale</strong></td>
+                <td><strong>+35</strong></td>
+            </tr>
+        </tbody>
+    </table>
+    <h2 id="giammili">Giammili</h2>
+    <table>
+        <thead>
+            <tr>
+                <th class="ordering-column" data-column="name">Nome</th>
+                <th class="ordering-column" data-column="score">Punteggio</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Iscrizione Uni</td>
+                <td>+10</td>
+            </tr>
+            <tr>
+                <td>Disoccupato</td>
+                <td>-30</td>
+            </tr>
+            <tr>
+                <td>Al Nord</td>
+                <td>+20</td>
+            </tr>
+            <tr>
+                <td>Macchina</td>
+                <td>+15</td>
+            </tr>
+            <tr>
+                <td>Collezione Orologi</td>
+                <td>+30</td>
+            </tr>
+            <tr>
+                <td>Concerti</td>
+                <td>+5</td>
+            </tr>
+            <tr>
+                <td>Viaggiare</td>
+                <td>+10</td>
+            </tr>
+            <tr>
+                <td>Andare nel deserto</td>
+                <td>+15</td>
+            </tr>
+            <tr>
+                <td>Malattia cronica</td>
+                <td>-5</td>
+            </tr>
+            <tr>
+                <td><strong>Totale</strong></td>
+                <td><strong>+70</strong></td>
+            </tr>
+        </tbody>
+    </table>
+    <h2 id="luca">Luca</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Bonus/Malus</th>
+                <th>Punteggio</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Iscrizione Uni</td>
+                <td>+10</td>
+            </tr>
+            <tr>
+                <td>Disiscrizione Uni</td>
+                <td>-15</td>
+            </tr>
+            <tr>
+                <td>Iscrizione Uni</td>
+                <td>+10</td>
+            </tr>
+            <tr>
+                <td>Disiscrizione Uni</td>
+                <td>-15</td>
+            </tr>
+            <tr>
+                <td>Iscrizione Uni</td>
+                <td>+10</td>
+            </tr>
+            <tr>
+                <td>Fidanzato</td>
+                <td>+10</td>
+            </tr>
+            <tr>
+                <td>In casa genitori</td>
+                <td>-10</td>
+            </tr>
+            <tr>
+                <td>Macchina</td>
+                <td>+15</td>
+            </tr>
+            <tr>
+                <td>Gymbro</td>
+                <td>+10</td>
+            </tr>
+            <tr>
+                <td><strong>Totale</strong></td>
+                <td><strong>+25</strong></td>
+            </tr>
+        </tbody>
+    </table>
+    <h2 id="Manuel">Manuel</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Bonus/Malus</th>
+                <th>Punteggio</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Iscrizione Uni</td>
+                <td>+10</td>
+            </tr>
+            <tr>
+                <td>Al Nord</td>
+                <td>+20</td>
+            </tr>
+            <tr>
+                <td>Fidanzato</td>
+                <td>+10</td>
+            </tr>
+            <tr>
+                <td>Calciatore</td>
+                <td>+50</td>
+            </tr>
+            <tr>
+                <td>&lt;10k ti conosce</td>
+                <td>+10</td>
+            </tr>
+            <tr>
+                <td>Ludopatia</td>
+                <td>-10</td>
+            </tr>
+            <tr>
+                <td>Concerti</td>
+                <td>+5</td>
+            </tr>
+            <tr>
+                <td>Viaggiare</td>
+                <td>+10</td>
+            </tr>
+            <tr>
+                <td><strong>Totale</strong></td>
+                <td><strong>+105</strong></td>
+            </tr>
+        </tbody>
+    </table>
+    <h2 id="marco">Marco</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Bonus/Malus</th>
+                <th>Punteggio</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Disoccupato</td>
+                <td>-30</td>
+            </tr>
+            <tr>
+                <td>In casa genitori</td>
+                <td>-10</td>
+            </tr>
+            <tr>
+                <td>Macchina</td>
+                <td>+15</td>
+            </tr>
+            <tr>
+                <td>Casa di proprietà</td>
+                <td>+70</td>
+            </tr>
+            <tr>
+                <td>Suonare uno strumento</td>
+                <td>+5</td>
+            </tr>
+            <tr>
+                <td>Concerti</td>
+                <td>+5</td>
+            </tr>
+            <tr>
+                <td>Viaggiare</td>
+                <td>+10</td>
+            </tr>
+            <tr>
+                <td><strong>Totale</strong></td>
+                <td><strong>65</strong></td>
+            </tr>
+        </tbody>
+    </table>
+    <h2 id="pio">Pio</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Bonus/Malus</th>
+                <th>Punteggio</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Iscrizione Uni</td>
+                <td>+10</td>
+            </tr>
+            <tr>
+                <td>Triennale</td>
+                <td>+30</td>
+            </tr>
+            <tr>
+                <td>Disoccupato</td>
+                <td>-30</td>
+            </tr>
+            <tr>
+                <td>In casa genitori</td>
+                <td>-10</td>
+            </tr>
+            <tr>
+                <td>Fidanzato</td>
+                <td>+10</td>
+            </tr>
+            <tr>
+                <td>Concerti</td>
+                <td>+5</td>
+            </tr>
+            <tr>
+                <td>Malattia cronica</td>
+                <td>-5</td>
+            </tr>
+            <tr>
+                <td>Malattia degenerativa</td>
+                <td>-10</td>
+            </tr>
+            <tr>
+                <td>Malattia rara</td>
+                <td>-15</td>
+            </tr>
+            <tr>
+                <td><strong>Totale</strong></td>
+                <td><strong>-15</strong></td>
+            </tr>
+        </tbody>
+    </table>
+    <h2 id="salvo">Salvo</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Bonus/Malus</th>
+                <th>Punteggio</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Iscrizione Uni</td>
+                <td>+10</td>
+            </tr>
+            <tr>
+                <td>Disoccupato</td>
+                <td>-30</td>
+            </tr>
+            <tr>
+                <td>Gymbro</td>
+                <td>+10</td>
+            </tr>
+            <tr>
+                <td>In casa genitori</td>
+                <td>-10</td>
+            </tr>
+            <tr>
+                <td>Fidanzato</td>
+                <td>+10</td>
+            </tr>
+            <tr>
+                <td>Terreno</td>
+                <td>+30 (/3)</td>
+            </tr>
+            <tr>
+                <td><strong>Totale</strong></td>
+                <td><strong>0</strong></td>
+            </tr>
+        </tbody>
+    </table>
+    <h2 id="simone">Simone</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Bonus/Malus</th>
+                <th>Punteggio</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Iscrizione Uni</td>
+                <td>+10</td>
+            </tr>
+            <tr>
+                <td>Disiscrizione Uni</td>
+                <td>-15</td>
+            </tr>
+            <tr>
+                <td>Stagista/Schiavo</td>
+                <td>-5</td>
+            </tr>
+            <tr>
+                <td>Ludopatia</td>
+                <td>-10</td>
+            </tr>
+            <tr>
+                <td>Al Nord</td>
+                <td>+20</td>
+            </tr>
+            <tr>
+                <td>Viaggiare</td>
+                <td>+10</td>
+            </tr>
+            <tr>
+                <td><strong>Totale</strong></td>
+                <td><strong>+10</strong></td>
+            </tr>
+        </tbody>
+    </table>
+</section>
