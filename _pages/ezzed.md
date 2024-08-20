@@ -29,7 +29,7 @@ redirect_from:
 |                  |       | Pilota                       | +70   |                  |       |                     |       |                   |       |  Campi da gioco                    |   40    |              |       | Videogiocare         | 5     | Andare nella tundra   | 15     | Disco d'oro               | 100   |
 |                  |       | Chef                         | +50   |                  |       |                     |       |                   |       |                      |       |              |       |                     |       | Andare nella savana   | 15    | Disco di Platino          | 150   |
 |                  |       | Deputato/Ministro            | +75   |                  |       |                     |       |                   |       |                      |       |              |       |                     |       | Giocare per la nazionale | 100  |                           |       |
-|                  |       | Musicista                    | +50   |                  |       |                     |       |                   |       |                      |       |              |       |                     |       | Conoscenze Mafiose    | -70   |                           |       |
+|                  |       | Musicista/Producer                    | +50   |                  |       |                     |       |                   |       |                      |       |              |       |                     |       | Conoscenze Mafiose    | -70   |                           |       |
 |                  |       | Calciatore                   | +50   |                  |       |                     |       |                   |       |                      |       |              |       |                     |       |                      |       |                           |       |
 
 
@@ -87,11 +87,11 @@ redirect_from:
 
 | Bonus/Malus         | Punteggio     |
 |---------------------|---------------|
-| Iscrizione Uni      | +10           |
+| Triennale           | +30          |
 | Disoccupato         | -30           |
 | In casa genitori    | -10           |
 | Macchina            | +15           |
-| **Totale**          | **-15**       |
+| **Totale**          | **+5**       |
 
 ## Flavio
 
@@ -169,11 +169,12 @@ redirect_from:
 | Disoccupato         | -30          |
 | In casa genitori    | -10          |
 | Macchina            | +15          |
-| Casa di proprietà    | +70      |
+| Casa di proprietà   | +70          |
 | Suonare uno strumento| +5          |
-| Concerti             | +5           |
-| Viaggiare           | +10           |
-| **Totale**          | **65**      |
+| Musicista/Producer  | +50          |
+| Concerti            | +5           |
+| Viaggiare           | +10          |
+| **Totale**          | **115**      |
 
 ## Pio
 
@@ -197,10 +198,11 @@ redirect_from:
 | Iscrizione Uni      | +10           |
 | Disoccupato         | -30           |
 | Gymbro              | +10           |
+| Macchina            | +15          |
 | In casa genitori    | -10           |
 | Fidanzato           | +10           |
 | Terreno            | +30 (/3)       |
-| **Totale**          | **0**       |
+| **Totale**          | **+15**       |
 
 ## Simone
 
